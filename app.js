@@ -54,7 +54,7 @@ function calculateProfitAndLoss(initial, current, totalQuantity){
          var profitPercentage =  (profitValue/initial) * 100;
          outputField.innerText = "yeah!!!! your profits on overall stocks is = ⬆️ " + profitValue +"\n" + " your profits percentage is = " + profitPercentage + "%";
          outputField.style.backgroundColor = "green";
-     }  //else if(current === initial){
+     }  else if(current === initial){
      
-    // outputField.innerText = "No profit and No loss , No pain No gain = you are on equillibrium"
+    outputField.innerText = "No profit and No loss , No pain No gain = you are on equillibrium" }
 }
